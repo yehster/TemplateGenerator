@@ -1,0 +1,15 @@
+{
+  "name": "templategenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Yeh",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cheerio": "^0.22.21",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
