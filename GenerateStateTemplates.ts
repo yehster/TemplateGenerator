@@ -88,7 +88,7 @@ function generateState(id : number,name : string, data : string)
 	myContainer.append(myGroup);
 	let fullFile = "<svg  version=\"1.0\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\">" + "  <style> path {fill:#d0d0d0;stroke:#000;stroke-width:.17829;} </style> "
 	fullFile+=myContainer.html() + "</svg>";
-	let fileName = "c:/git/VisSystem/templates/states/" + id + ".htm";
+	let fileName = "../VisSystem/templates/states/" + id + ".htm";
 	fs.writeFileSync(fileName,fullFile);
 }
 function generateIndividualStates()
